@@ -145,10 +145,10 @@ public:
 
                     }
 
-                    setOptionText(introText, font, 20, sf::Color::White, character1.introText);
-                    setOptionText(optionText1, font, 20, sf::Color::White, character1.option1);
-                    setOptionText(optionText2, font, 20, sf::Color::White, character1.option2);
-                    setOptionText(optionText3, font, 20, sf::Color::White, character1.option3);
+                    setOptionText(introText, font, 20, sf::Color::Black, character1.introText);
+                    setOptionText(optionText1, font, 20, sf::Color::Black, character1.option1);
+                    setOptionText(optionText2, font, 20, sf::Color::Black, character1.option2);
+                    setOptionText(optionText3, font, 20, sf::Color::Black, character1.option3);
 
                     setOptionText(responseText, font, 24, sf::Color::Blue, "");
 
